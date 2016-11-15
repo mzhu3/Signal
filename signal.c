@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <signal.h>
 
+// Matthew Zhu, Stephan Doan
+
 void sigHandle(int sigNum){
   if(sigNum ==SIGINT){
     printf("SIGINT needs me, I'm out\n");
